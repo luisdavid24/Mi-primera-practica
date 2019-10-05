@@ -1,0 +1,85 @@
+.indice {
+    background: gray;
+
+}
+.menu{
+    font-size: 25px;
+    margin-top: 0;
+    display: flex;
+    color:white;
+}
+.link{
+    padding: 0 20px;
+    
+}
+.indice a{
+    color:white;
+}
+
+.hero{
+    background:gray;
+    display:flex;
+    align-items: center;
+    font-size: 28px;
+    
+}
+h1 strong{
+    color:rgb(104, 142, 248);
+    margin-top:0;
+}
+.viaje {
+    background: rgb(199, 198, 198);
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid white; */
+    
+}
+.titulo-libre{
+    background: rgb(199, 198, 198);
+    display: flex;
+    color: rgb(104, 142, 248);
+}
+
+.pasaTiempo {
+    background: rgb(199, 198, 198); 
+    display: flex;
+    justify-content: space-between;
+}
+.deporte{
+    background: rgb(214, 211, 211);
+}
+.leer{
+    background: rgb(214, 211, 211);
+}
+
+
+.tituloLibre{
+    background: gray;
+    display: flex;
+    color:rgb(104, 142, 248);
+}
+.contacto {
+    background:gray;
+    justify-content: space-between;
+    display: flex;
+    /* border:1px solid pink; */
+    
+}
+.social-link{
+    display:inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    background-size: 50px 50px;
+}
+.social-link.instagram{
+    background-image: url("fotos/instagramGris.jpg")
+}
+.social-link.facebook{
+    background-image: url("fotos/facebookgris.png")
+}
+.flooter{
+    background: rgb(104, 142, 248);
+    display: flex;
+    color:white;
+}
