@@ -123,4 +123,6 @@ h1 strong{
 }
 .lenguajes-flex{
     display: flex;
+    background: rgb(199, 198, 198);
+    margin:0 auto;
 }
