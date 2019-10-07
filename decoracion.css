@@ -121,8 +121,23 @@ h1 strong{
     margin: 0 10px;
     background-size: 200px 200px;
 }
+.lenguajes{
+    background: rgb(199, 198, 198);
+}
 .lenguajes-flex{
     display: flex;
     background: rgb(199, 198, 198);
     margin:0 auto;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
 }
