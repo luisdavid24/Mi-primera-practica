@@ -5,7 +5,6 @@ body{
 .indice {
     background: rgb(88, 87, 87)
 }
-
 .menu{
     font-size: 25px;
     margin-top: 0;
@@ -18,7 +17,6 @@ body{
 .link{
     padding: 0 20px;
     text-decoration: none;
-    
 }
 .indice a{
     color:white;
@@ -29,7 +27,6 @@ body{
     display:flex;
     align-items: center;
     font-size: 28px;
-    
 }
 h1 strong{
     color:rgb(104, 142, 248);
@@ -53,7 +50,57 @@ h1 strong{
     display: flex;
     justify-content: space-between;
 }
+/* Esta es la seccion de los lenguajes de programacion */
+.python{
+    display: block;
+    background: rgb(199, 198, 198);
+}
+.python-foto{
+    display:flex;
+    width: 150px;
+    height: 150px;
+    margin: 0 10px;
+    background-size: 150px 150px;
+}
+.html{
+    display: block;
+    background: rgb(199, 198, 198);
+}
+.html-foto{
+    width: 150px;
+    height: 150px;
+    margin: 0 10px;
+    background-size: 150px 150px;
+}
+.css{
+    display: block;
+    background: rgb(199, 198, 198);
+}
+.css-foto{
+    width: 150px;
+    height: 150px;
+    margin: 0 10px;
+    background-size: 150px 150px;
+}
+.javascript{
+    display:block;
+    background: rgb(199, 198, 198);
+}
+.javascript-foto{
+    width: 150px;
+    height: 150px;
+    margin: 0 10px;
+    background-size: 150px 150px;
+}
 
+.lenguajes{
+    background: rgb(199, 198, 198);
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+/* Esta es la seccion del contacto */
 .tituloLibre{
     background: gray;
     display: flex;
@@ -80,65 +127,13 @@ h1 strong{
 .social-link.github{
     background-image: url("fotos/logoGithub.PNG")
 }
-
+/* Esta es la seccion del footer */
 .flooter{
     background: rgb(104, 142, 248);
     display: flex;
     color:white;
 }
-
-.python{
-    display: flex;
-    background: rgb(199, 198, 198);
-}
-.python-foto{
-    display:flex;
-    width: 200px;
-    height: 200px;
-    margin: 0 10px;
-    background-size: 200px 200px;
-}
-.html{
-    display: flex;
-    background: rgb(199, 198, 198);
-}
-.html-foto{
-    width: 200px;
-    height: 200px;
-    margin: 0 10px;
-    background-size: 200px 200px;
-}
-.css{
-    display: flex;
-    background: rgb(199, 198, 198);
-}
-.css-foto{
-    width: 200px;
-    height: 200px;
-    margin: 0 10px;
-    background-size: 200px 200px;
-}
-.javascript{
-    display: flex;
-    background: rgb(199, 198, 198);
-}
-.javascript-foto{
-    width: 200px;
-    height: 200px;
-    margin: 0 10px;
-    background-size: 200px 200px;
-}
-.lenguajes{
-    background: rgb(199, 198, 198);
-}
-.lenguajes-flex{
-    display: flex;
-    background: rgb(199, 198, 198);
-    margin:0 auto;
-    /* display: flex;
-    align-items: center;
-    justify-content: space-between; */
-}
+/* Este es container para que todo tenga orden */
 .container{
     width: 1000px;
     margin: 0 auto;
@@ -147,4 +142,5 @@ h1 strong{
     align-items: inherit;
     height: inherit;
     flex-wrap: inherit;
+    background: inherit;
 }
