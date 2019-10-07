@@ -1,21 +1,29 @@
-.indice {
-    background: gray;
-
+body{
+    margin:0;
 }
+/* Esta es la seccion encabezado */
+.indice {
+    background: rgb(88, 87, 87)
+}
+
 .menu{
     font-size: 25px;
     margin-top: 0;
     display: flex;
     color:white;
 }
+.menu a{
+    text-decoration: none;
+}
 .link{
     padding: 0 20px;
+    text-decoration: none;
     
 }
 .indice a{
     color:white;
 }
-
+/* Esta el fin del encabezado y el comienzo del hero */
 .hero{
     background:gray;
     display:flex;
@@ -27,13 +35,13 @@ h1 strong{
     color:rgb(104, 142, 248);
     margin-top:0;
 }
+/* Este es el fin del hero y el inicio de viajes */
 .viaje {
     background: rgb(199, 198, 198);
     display: flex;
     justify-content: space-between;
-    /* border: 1px solid white; */
-    
 }
+/* Termina viajes y comienza pasa tiempo */
 .titulo-libre{
     background: rgb(199, 198, 198);
     display: flex;
@@ -45,6 +53,7 @@ h1 strong{
     display: flex;
     justify-content: space-between;
 }
+
 .tituloLibre{
     background: gray;
     display: flex;
@@ -54,8 +63,6 @@ h1 strong{
     background:gray;
     justify-content: space-between;
     display: flex;
-    /* border:1px solid pink; */
-    
 }
 .social-link{
     display:inline-block;
