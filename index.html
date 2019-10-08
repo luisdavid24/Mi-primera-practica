@@ -160,8 +160,9 @@
 </body>
 <script>
     const menu=document.querySelector(".menu");
-    const burgerButton=document.querySelector("#burger-menu");
+    const burgerButton=document.querySelector("#burger-buttom");
     const ipad=window.matchMedia("creen and (max-width: 767px)"); 
+    // la funcion validacion optimizar todo para que solo se el resto del codigo cuando la pantalla tenga menos de 767px
     function validation(event){
       if (event.matchess){
         burgerButton.addEventListener("click",hideShow)
@@ -169,6 +170,7 @@
         burgerButton.removeEventListener("click",hideShow)
       }
     }
+    // Esta funcion de hideShow es solo para poner o retirar la clase "is active" para que se vea el menu
     function hideShow()
     { if(menu.classList.contains("is-active")){
         menu.classList.remove("is-active");
@@ -176,7 +178,6 @@
       else{
         menu.classList.add("is-active");
       }
-
     }
     burgerButton.addEventListener("click", hideShow)
     ipad.addListener(validation)
