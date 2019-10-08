@@ -3,7 +3,7 @@ body{
 }
 /* Esta es la seccion encabezado */
 .indice {
-    background: rgb(88, 87, 87)
+    background: rgb(88, 87, 87);
 }
 .menu{
     font-size: 25px;
@@ -13,6 +13,7 @@ body{
 }
 .menu a{
     text-decoration: none;
+    font-size: 18px;
 }
 .link{
     padding: 0 20px;
@@ -145,18 +146,24 @@ h1 strong{
     display:inline-block;
     width: 50px;
     height: 50px;
-    margin: 0 10px;
+    margin: 0 5px;
     background-size: 50px 50px;
+ 
 }
-.social-link.instagram{
-    background-image: url("fotos/instagramGris.jpg")
+.contacto.texto.p{
+    margin: 15px 5px;
 }
+
 .social-link.facebook{
     background-image: url("fotos/facebookgris.png")
 }
 .social-link.github{
     background-image: url("fotos/logoGithub.PNG")
 }
+.social-link.instagram{
+    background-image: url("fotos/instagramGris.jpg")
+}
+
 /* Esta es la seccion del footer */
 .flooter{
     background: rgb(104, 142, 248);
@@ -174,3 +181,50 @@ h1 strong{
     flex-wrap: inherit;
     background: inherit;
 }
+/* Esta seccion es para el menu de hambuerguesa que se importo */
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?79960f');
+    src:  url('fonts/icomoon.eot?79960f#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?79960f') format('truetype'),
+      url('fonts/icomoon.woff?79960f') format('woff'),
+      url('fonts/icomoon.svg?79960f#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-menu:before {
+    content: "\e900";
+  }
+ /* Aqui termina el menu de hamburguesa importadoy siguen el codigo del burguer */
+.burger-buttom{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgba(0, 0,0,.8);
+    display: none;
+    line-height: 40px;
+    text-align: center;
+    position:fixed;
+    left:5px;
+    top:5px;
+    color:white;
+    z-index:2;
+} 
+

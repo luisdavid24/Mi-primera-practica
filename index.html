@@ -6,8 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mi-portafolio</title>
     <link rel="stylesheet" href="decoracion.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
+  
+    <i class="icon-menu burger-buttom" id="burger-buttom"></i>
     <section class="indice">
         <div class="container">
             <nav class="menu">
@@ -137,13 +140,13 @@
     <section class="contacto" id=contacto >
         <div class="container">
             <div class="contacto texto">
-                <p>Puedes contactarme por mi correo electronico. <br> david12.29@hotmail.com</p>
-                <p>Tambien puedes escribirme <br> <strong>Nada</strong> de llamadas,gracias</p>
+                <p class="contacto texto p">Puedes contactarme por mi correo electronico. <br> david12.29@hotmail.com</p>
+                <p class="contacto texto p">Tambien puedes escribirme <br> Nada de llamadas,gracias</p>
             </div>
             <div class="contacto enlaces">
-                <a href="http://instagram.com/ldlm_2412" class="social-link instagram"></a> 
                 <a href="http://https://www.facebook.com/luisdavid.lopezmendoza.9"class="social-link facebook"></a>
                 <a href="https://github.com/luisdavid24" class="social-link github"></a>
+                <a href="http://instagram.com/ldlm_2412" class="social-link instagram"></a>
             </div>
 
         </div>
@@ -155,4 +158,27 @@
         </div>
     </section>
 </body>
+<script>
+    const menu=document.querySelector(".menu");
+    const burgerButton=document.querySelector("#burger-menu");
+    const ipad=window.matchMedia("creen and (max-width: 767px)"); 
+    function validation(event){
+      if (event.matchess){
+        burgerButton.addEventListener("click",hideShow)
+      }else{
+        burgerButton.removeEventListener("click",hideShow)
+      }
+    }
+    function hideShow()
+    { if(menu.classList.contains("is-active")){
+        menu.classList.remove("is-active");
+      }
+      else{
+        menu.classList.add("is-active");
+      }
+
+    }
+    burgerButton.addEventListener("click", hideShow)
+    ipad.addListener(validation)
+</script>
 </html>
