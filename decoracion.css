@@ -76,9 +76,19 @@ h1 strong{
     margin-bottom: -240px;
 
 }
+.containerProgramming{
+    width: 400px;
+    margin:8px ;
+    border:1px solid rgb(192, 196, 200);
+    border-radius: 10%;
+    padding: .8%;
+}
+.photoProgramming{
+    width: 130px;
+    border-radius: 30%;
+}   
 
 .tituloLibre{
-    
     display: flex;
     color:rgb(104, 142, 248);
 }
