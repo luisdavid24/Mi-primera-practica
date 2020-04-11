@@ -9,7 +9,6 @@ body{
 
 .indice {
     background: rgb(37, 196, 221);
-   
 }
 
 .menu{
@@ -20,7 +19,7 @@ body{
 }
 .menu a{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
 }
 .link{
     padding: 0 20px;
@@ -31,13 +30,11 @@ body{
     color:white;
 }
 .hero{
-    
     display:flex;
     align-items: center;
     font-size: 28px;
 }
 h1 strong{
-    /* color:rgb(104, 142, 248); */
     color: rgb(19, 167, 190);
     margin-top:0;
 }
@@ -79,47 +76,7 @@ h1 strong{
     margin-bottom: -240px;
 
 }
-.python{
-    display: block;
-    margin: 0 10px;
-}
-.python-foto{
-    display:flex;
-    width: 150px;
-    height: 150px;
-    margin: 0 10px;
-    background-size: 150px 150px;
-}
-.html{
-    display: block;
-    margin: 0 10px;
-}
-.html-foto{
-    width: 150px;
-    height: 150px;
-    margin: 0 10px;
-    background-size: 150px 150px;
-}
-.css{
-    display: block;
-    margin: 0 10px;
-}
-.css-foto{
-    width: 150px;
-    height: 150px;
-    margin: 0 10px;
-    background-size: 150px 150px;
-}
-.javascript{
-    display:block;
-    margin: 0 10px;
-}
-.javascript-foto{
-    width: 150px;
-    height: 150px;
-    margin: 0 10px;
-    background-size: 150px 150px;
-}
+
 .tituloLibre{
     
     display: flex;
