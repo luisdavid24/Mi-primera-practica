@@ -16,19 +16,19 @@
             <nav class="menu">
                 <ol>
                     <li class="link">
-                        <a href="#hero">Inicio</a>
+                        <a href="#hero">Home</a>
                     </li>
                     <li class="link ">
-                        <a href="#titulo-viajes" >Viajes</a>
+                        <a href="#titulo-viajes" >travels</a>
                     </li>
                     <li class="link">
-                        <a href="#pasaTiempo">Pasa Tiempo</a>
+                        <a href="#pasaTiempo">Free time.</a>
                     </li>
                     <li class="link">
-                        <a href="#titulo-lenguajes">Lenguajes de programacion</a>
+                        <a href="#titulo-lenguajes">Developing</a>
                     </li>
                     <li class="link">
-                        <a href="#contacto">Contacto</a>
+                        <a href="#contacto">Contact</a>
                     </li>
                 </ol>
             </nav>
@@ -38,20 +38,19 @@
         <div class="container">
             <div>
                 <h1>
-                    Hola, mi nombre es <br/> <strong>luis david lopez mendoza</strong> <br/> conoceme un poco mejor.
+                    Hi, my name is <br/> <strong>Luis david lopez mendoza</strong> <br/>know me better.
                 </h1>
             </div>
         </div>
     </section>
     <div class="titulo-libre" id="titulo-viajes">
         <div class="container">
-            <h2>Viajes que he tenido</h2>
+            <h2>travels</h2>
         </div>
     </div>
     <section class="viaje"id=viaje>
         <div class="container">
             <div class="viaje texto">
-                <h5>Compañeros de viaje/Con mi familia</h5>
                 <p>Cuando llegamos fuimos primero donde mi amigo lucas, para luego ir donde vilma.</p>
             </div>
             <figure class="viaje imagen">
@@ -61,15 +60,15 @@
     </section>
     <div class="titulo-libre">
         <div class="container">
-            <h2 > Pasa tiempos.</h2>
+            <h2 >Free time</h2>
         </div>
     </div>
     <section class="pasaTiempo"id=pasaTiempo>
         <div class="container">
             <article class="deporte">
                 <div>
-                    <h3 >Deporte.</h3>
-                    <p>Me gusta la practiva multiples actividades fisicas  ejemplo futbol, el gym , correr, nadar y dormir</p>
+                    <h3 >sport.</h3>
+                    <p>I really enjoy physical activity, for example soccer and the gym</p>
                 </div>
                 <figure>
                     <img src="fotos/deportes.jpg" alt="Actividad fisica" height="100px">
@@ -89,7 +88,7 @@
     </section>
     <div class="titulo-libre"id="titulo-lenguajes">
         <div class="container">
-            <h2>Lenguajes con los que he tenido contacto</h2>
+            <h2>Developing</h2>
         </div>
     </div>
     <section class="lenguajes" >
@@ -97,7 +96,7 @@
             <article class="leng python">
                 <div >
                     <h3>Python</h3>
-                    <p class="contenido">En mi primer semestre de la universidad tire mi primer lineal de codigo con python. Debo decir que me genero un gran reto  porque mi primer contacto con este mundo del codigo.</p>
+                    <p class="contenido">In my first semester of college I threw out my first line of code with python. I must say that I create a great challenge because my first contact with this world of code.</p>
                 </div>
                 <figure>
                     <img src="fotos/python.png" alt="foto de python" class="python-foto">
@@ -134,7 +133,7 @@
     </section>
     <div class="tituloLibre">
         <div class="container">
-            <h2>Contactame</h2>
+            <h2>Contact</h2>
         </div>
     </div>
     <section class="contacto" id=contacto >
@@ -154,7 +153,7 @@
     </section>
     <section class=flooter>
         <div class="container">
-            <p>Este es mi primer intento de hacer una pagina web solito.</p>
+            <p>This is one of my first web pages.</p>
         </div>
     </section>
 </body>
@@ -162,7 +161,6 @@
     const menu=document.querySelector(".menu");
     const burgerButton=document.querySelector("#burger-buttom");
     const ipad=window.matchMedia("creen and (max-width: 767px)"); 
-    // la funcion validacion optimizar todo para que solo se el resto del codigo cuando la pantalla tenga menos de 767px
     function validation(event){
       if (event.matchess){
         burgerButton.addEventListener("click",hideShow)
@@ -170,7 +168,6 @@
         burgerButton.removeEventListener("click",hideShow)
       }
     }
-    // Esta funcion de hideShow es solo para poner o retirar la clase "is active" para que se vea el menu
     function hideShow()
     { if(menu.classList.contains("is-active")){
         menu.classList.remove("is-active");

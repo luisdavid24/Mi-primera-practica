@@ -1,10 +1,17 @@
 body{
     margin:0;
+    padding:0;
+    background: rgb(190, 232, 238);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgb(241, 235, 235), rgb(190, 232, 238));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgb(241, 235, 235), rgb(190, 232, 238)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-/* Esta es la seccion encabezado */
+
 .indice {
-    background: rgb(88, 87, 87);
+    background: rgb(37, 196, 221);
+   
 }
+
 .menu{
     font-size: 25px;
     margin-top: 0;
@@ -23,20 +30,18 @@ body{
 .indice a{
     color:white;
 }
-/* Esta el fin del encabezado y el comienzo del hero */
 .hero{
-    background:gray;
+    
     display:flex;
     align-items: center;
     font-size: 28px;
 }
 h1 strong{
-    color:rgb(104, 142, 248);
+    /* color:rgb(104, 142, 248); */
+    color: rgb(19, 167, 190);
     margin-top:0;
 }
-/* Este es el fin del hero y el inicio de viajes */
 .viaje {
-    background: rgb(199, 198, 198);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -47,15 +52,12 @@ h1 strong{
 .viaje.imagen{
     display: inline-block;
 }
-/* Termina viajes y comienza pasa tiempo */
 .titulo-libre{
-    background: rgb(199, 198, 198);
     display: flex;
     color: rgb(104, 142, 248);
 }
 
 .pasaTiempo {
-    background: rgb(199, 198, 198); 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -66,9 +68,7 @@ h1 strong{
 .leer{
     display: inline-block;
 }
-/* Esta es la seccion de los lenguajes de programacion */
 .lenguajes{
-    background: rgb(199, 198, 198);
     display: flex;
     flex-wrap: wrap;
 }
@@ -81,7 +81,6 @@ h1 strong{
 }
 .python{
     display: block;
-    background: rgb(199, 198, 198);
     margin: 0 10px;
 }
 .python-foto{
@@ -93,7 +92,6 @@ h1 strong{
 }
 .html{
     display: block;
-    background: rgb(199, 198, 198);
     margin: 0 10px;
 }
 .html-foto{
@@ -104,7 +102,6 @@ h1 strong{
 }
 .css{
     display: block;
-    background: rgb(199, 198, 198);
     margin: 0 10px;
 }
 .css-foto{
@@ -115,7 +112,6 @@ h1 strong{
 }
 .javascript{
     display:block;
-    background: rgb(199, 198, 198);
     margin: 0 10px;
 }
 .javascript-foto{
@@ -124,14 +120,12 @@ h1 strong{
     margin: 0 10px;
     background-size: 150px 150px;
 }
-/* Esta es la seccion del contacto */
 .tituloLibre{
-    background: gray;
+    
     display: flex;
     color:rgb(104, 142, 248);
 }
 .contacto {
-    background:gray;
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
@@ -166,7 +160,7 @@ h1 strong{
 
 /* Esta es la seccion del footer */
 .flooter{
-    background: rgb(104, 142, 248);
+    background: rgb(37, 196, 221);
     display: flex;
     color:white;
 }
