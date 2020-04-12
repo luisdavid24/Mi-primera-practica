@@ -9,6 +9,8 @@ body{
 
 .indice {
     background: rgb(37, 196, 221);
+    position: fixed;
+    width: 100%;
 }
 
 .menu{
@@ -16,6 +18,7 @@ body{
     margin-top: 0;
     display: flex;
     color:white;
+    
 }
 .menu a{
     text-decoration: none;
@@ -33,6 +36,7 @@ body{
     display:flex;
     align-items: center;
     font-size: 28px;
+    padding-top: 5%;
 }
 h1 strong{
     color: rgb(19, 167, 190);
@@ -40,15 +44,13 @@ h1 strong{
 }
 .viaje {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
-.viaje.texto{
-    display: inline-block;
+.viaje p{
+    width: 300px;
+    margin-right: 6%;
 }
-.viaje.imagen{
-    display: inline-block;
-}
+
 .titulo-libre{
     display: flex;
     color: rgb(104, 142, 248);
