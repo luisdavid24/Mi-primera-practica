@@ -11,6 +11,7 @@
         padding-left: 5px;
         margin-left: 5%;
     }
+
     .hero{
         padding-top: 35px;
         padding-left: 10px;
@@ -66,6 +67,11 @@
     } 
 }
 @media screen and (max-width:425px){
+    .containerProgramming{
+        font-size: 20px;
+        width: 320px;
+        margin-left: 8px;
+    }
     .contenido{
         width:280px ;
         height: 300px;
@@ -95,12 +101,22 @@
     .viaje{
         margin-left: 0%;
         font-size: 14px;
+        width:360px;
+        margin-left:8px;
+    }
+    .viaje p{
+        font-size: 14px;
+        
     }
     .canada{
         width: 90px;
     }
 }
 @media screen and (max-width:320px){
+    .viaje{
+        width:260px ;
+        margin-left: 6px;
+    }
    .pasaTiempo{
        display: inline;
    }
