@@ -68,7 +68,43 @@
         width:280px ;
         height: 300px;
     }
+    .canada{
+        height:60px;
+        padding-right:5%;
+        
+    }
+    .freeTimeFoto{
+        width: 150px;
+    }
+    .programingh3{
+        padding-left:5%;
+        
+    }
+    .programingP{
+        padding-left:4%;
+        padding-right:10%;
+    }
+    .photoProgramming{
+        padding-left: 5%;
+    }
+    h1{
+        font-size: 25px;
+    }
 }
 @media screen and (max-width:320px){
-   
+   .pasaTiempo{
+       display: inline;
+   }
+   .programingP{
+        font-size:15px;
+        width: 280px;
+        padding-left:18%;
+    }
+    .programingh3{
+        padding-left:15%;
+    }
+    .photoProgramming{
+        padding-left: 25%;
+        border-radius: 1%;
+    }
 }
