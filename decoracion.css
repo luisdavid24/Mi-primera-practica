@@ -45,6 +45,16 @@ h1 strong{
 .viaje {
     display: flex;
     justify-content: center;
+    align-items: center;
+    box-shadow: 2px 3px 5px rgba(0,0,0,.1);
+    cursor:pointer;
+    border-radius: 5%;
+    max-width: 620px;
+    margin-left: 25%;
+}
+.viaje:hover{
+    transform:scale(1.05) translateY(-2px);
+    box-shadow: 3px 5px 15px rgba(0,0,0,.55);
 }
 .viaje p{
     width: 300px;
@@ -59,10 +69,19 @@ h1 strong{
     display: flex;
     justify-content: center;
 }
+.canada{
+    width: 150px;
+}
 .freeTime{
     width: 300px;
     padding: 2%;
-   
+    box-shadow: 2px 3px 5px rgba(0,0,0,.1);
+    cursor:pointer;
+    border-radius: 5%;
+}
+.freeTime:hover{
+    transform:scale(1.05) translateY(-2px);
+    box-shadow: 3px 5px 15px rgba(0,0,0,.55);
 }
 .freeTimeFoto{
     width: 210px;
@@ -89,6 +108,13 @@ h1 strong{
     border:1px solid rgb(211, 236, 238);
     border-radius: 10%;
     padding: .8%;
+    box-shadow: 2px 3px 5px rgba(0,0,0,.1);
+    cursor:pointer;
+    transition: all .25s ease-in;
+}
+.containerProgramming:hover{
+    transform:scale(1.05) translateY(-2px);
+    box-shadow: 3px 5px 15px rgba(0,0,0,.55);
 }
 .photoProgramming{
     width: 130px;
