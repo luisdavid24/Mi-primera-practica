@@ -64,13 +64,13 @@
     } 
     .menu.is-active{
         left: 0;
-    } 
+    }  
 }
 @media screen and (max-width:425px){
     .containerProgramming{
         font-size: 20px;
         width: 320px;
-        margin-left: 8px;
+        margin-left: 38px;
     }
     .contenido{
         width:280px ;
@@ -113,6 +113,20 @@
     }
 }
 @media screen and (max-width:320px){
+    .containerProgramming{
+        font-size: 8px;
+        width: 320px;
+        margin-left: 40px;
+        /* padding: 0px; */
+        padding-left: -10px;
+    }
+    
+    .freeTimeFoto{
+        width: 110px;
+    }
+    .freeTime{
+        font-size: 15px;
+    }
     .viaje{
         width:260px ;
         margin-left: 6px;
@@ -123,13 +137,16 @@
    .programingP{
         font-size:15px;
         width: 280px;
-        padding-left:18%;
+        padding-left:8%;
+        padding-right: 10%;
     }
     .programingh3{
         padding-left:15%;
     }
     .photoProgramming{
-        padding-left: 25%;
+        padding-left: 5%;
+        /* padding-right: 5%; */
         border-radius: 1%;
+        width:100px;
     }
 }
